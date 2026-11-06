@@ -1,0 +1,29 @@
+# Dependencias
+node_modules/
+**/node_modules/
+#Variables de entorno
+.env
+.env.*
+!.env.example
+
+# build / compilacion
+/dist/
+/build/
+**/dist/
+**/build/
+coverage/
+
+#Logs
+*.log
+nmp-debug-log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor
+.vscode/
+.DS_Store
+thumbs.db
+
+# Aechivos temporales
+*.tmp
+*.temp
